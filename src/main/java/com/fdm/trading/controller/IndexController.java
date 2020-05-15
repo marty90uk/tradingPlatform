@@ -30,7 +30,7 @@ public class IndexController {
     public String index(Model model) {
         model.addAttribute("user", new User());
         System.out.println("foof");
-        return "newIndex";
+        return "index";
     }
 
 //    @RequestMapping(value = "/signup", method = RequestMethod.GET)
